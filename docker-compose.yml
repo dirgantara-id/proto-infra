@@ -32,7 +32,7 @@ services:
       - efk
     depends_on:
       - elasticsearch
-
+      
 networks:
   efk:
     driver: bridge
