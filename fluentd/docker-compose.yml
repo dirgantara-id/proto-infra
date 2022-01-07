@@ -1,0 +1,15 @@
+version: '3.2'
+
+services:
+
+  fluentd:
+    build: fluentd
+    ports:
+      - "12201:12201/udp"
+    volumes:
+      - source: ./fluentd
+        target: /fluentd/etc
+        type: bind
+    depends_on:
+      - elasticsearch
+            
