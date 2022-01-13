@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    uses: muhtaufiq12/custom-ci-quarkusapp/.github/workflows/action.yml@main
+    uses: dirgantara-id/custom-ci-quarkusapp/.github/workflows/action.yml@main
     with:
       java-version: 11
       app-name: dtn-test
