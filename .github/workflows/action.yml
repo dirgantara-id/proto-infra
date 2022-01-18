@@ -12,3 +12,6 @@ jobs:
       java-version: 11
       app-name: dtn-test
       app-version: 0.0.1
+    secrets:
+      gcloud-key: ${{ secrets.GCLOUD_KEY }}
+      project-id: ${{ secrets.GCLOUD_PROJECT_ID }}
