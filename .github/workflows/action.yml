@@ -1,6 +1,6 @@
 name: Released
 
-# restart 4
+# restart 0
 on:
   push:
     branches: [test-branch]
