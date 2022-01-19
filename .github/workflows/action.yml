@@ -10,7 +10,7 @@ jobs:
     uses: dirgantara-id/custom-ci-quarkusapp/.github/workflows/action.yml@master
     with:
       java-version: 11
-      app-name: dtn-test
+      app-name: dtn-quarkus-native
       app-version: 0.0.1
     secrets:
       gcloud-key: ${{ secrets.GCLOUD_KEY }}
